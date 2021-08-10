@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #
 #Write a script named 'passwordCheck.sh' that accomplishes the following:
 #Ask the user to type a secret password (hide that input).
@@ -37,10 +37,10 @@ if [ "$optionSelect" -eq 1 ]; then
 
 			if [ cat secret.txt -eq "$userPreviousPassword | sha3sum" ]; then
 				echo "Password you entered is CORRECT"
-				echo "Access Granted $?"
+				echo "Access Granted /n Exit $?"
 	 				else
-					echo "Password you entered is IN CORRECT"
-					echo "Access Denied $?"
+					echo "Password you entered is WRONG!"
+					echo "Access Denied / Exit $?"
 			fi
 
 
