@@ -12,7 +12,7 @@ else     echo "You got it wrong :("
       
 fi 
       
-read -sp "what's the secret code?"       
+read -sp "what's the secret code?" REPLY      
 echo 
       
 case $correct in 
