@@ -17,6 +17,7 @@ while :; do
         continue
     fi
 
+
     if wget "$userInput"; then
         echo "Download successful"
     else

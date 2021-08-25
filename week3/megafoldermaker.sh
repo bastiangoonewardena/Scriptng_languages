@@ -14,6 +14,7 @@ for ((i = $1; i <= $2; i++))
       
 do 
       
+      
     #Create a new folder for that number 
     echo "Creating directory number $i" 
     mkdir "week $i" 

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Script is done for testing........
 read -p "Please select either option 1 - 5: " optionSelect
 
 for $optionSelect in 1 2 3 4 5

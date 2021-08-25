@@ -98,7 +98,5 @@ runIndex=$((option - 1))
 megaMenuList "$(echo "${menuList[$runIndex]}" | cut -f1 -d:)" "$(echo "${menuList[$runIndex]}" | cut -f2 -d:)"
 
 exitCode=$?
-
 echo -en "$white" #Menu finishes with nutral colour
-
 exit $exitCode  #exit the program with the same rturn code.

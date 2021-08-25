@@ -40,6 +40,7 @@ if [ "$optionSelect" -eq 1 ]; then
             echo "When deviding $val_a from $val_b it equals to :"
 	        echo -e "\033[35m"$val_f"\033[0m"
             
+			
 	else
 	echo "User option you entered is invalid, please try again later."
 	echo "to try again type ./calculator.sh"
