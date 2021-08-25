@@ -1,7 +1,11 @@
 #!/bin/bash
-
-read -p "Please enter a number :" val_a
-read -p "Please enter a number :" val_b
+echo " "
+echo "    <<<------WELCOME TO BASH CALCULATOR------>>>    "
+echo " You will be asked to enter 2 numbers, 1st and 2nd" 
+echo " Once you have succesfully entered these numbers then you will be asked to enter a few options so you can so some simple mathaatics" 
+echo " "
+read -p "Please enter 1st number :" val_a
+read -p "Please enter 2nd number :" val_b
 
 echo "Select the oparation you would like to do"
 echo -e "\033[34m1. Addition : \033[0m"
