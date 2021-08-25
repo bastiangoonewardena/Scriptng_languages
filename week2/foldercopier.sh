@@ -10,4 +10,5 @@ if [ -d "$folderName" ]; then
 		#If the folder is not there, print error
 		echo "Can't locate that folder"
 fi
+#exit code
 exit 0

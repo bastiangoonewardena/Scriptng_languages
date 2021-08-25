@@ -11,13 +11,12 @@ else     echo "You got it wrong :("
     correct = false 
       
 fi 
-      
+    
 read -sp "what's the secret code?" REPLY      
 echo 
-      
+    
 case $correct in 
       
-*) 
     echo "Go Away!" #people who get it wrong need to be told to go away! 
     ;; true) 
       

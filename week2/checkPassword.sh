@@ -5,9 +5,7 @@
 
 read -sp "Enter the password" password   #get the user to enter the password
 
-
 len="${#password}"
-
 if test $len -ge 8 ; then
 
     echo "$password" | grep -q [0-9]

@@ -8,6 +8,7 @@ touch "$folderName/secret.txt"
 
 echo ""
 echo "Folder Name:  $folderName created"
+echo " "
 
 #encrypt the password
 echo "$secretPassword" | sha3sum>$folderName/secret.txt

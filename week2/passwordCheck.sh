@@ -56,8 +56,6 @@ if [ "$optionSelect" -eq 1 ]; then
 			fi
 
 
-
-
 		else
 		echo "User option you entered is invalid, please try again later."
 		echo "to try again type ./passwordCheck_2.3.sh"
