@@ -1,6 +1,9 @@
 #! /bin/bash
 
-scriptList=(
+#Location of the file needs to be changed according to the location you will save the file to. 
+#Curent location of my fie is ~/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/Week2 and week3 folders. 
+
+menuList=(
     "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderMaker.sh::Create a folder" \
     "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderCopier.sh::Copy a folder" \
     "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/setPassword.sh::Set a password" \
@@ -10,91 +13,92 @@ scriptList=(
     "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/internetDownloader.sh::Download a File" \
 )
 
-# Define common colour escape sequences
-black='\033[30m'
-red='\033[31m'
-green='\033[32m'
-brown='\033[33m'
-blue='\033[34m'
-purple='\033[35m'
-cyan='\033[36m'
-grey='\033[37m'
-bold='\033[1m'
-resetColour='\033[0m'
+
+red='\033[31m'          #bash - red colour code
+green='\033[32m'        #bash - green colour code
+blue='\033[34m'         #bash - blue colour code
+white='\033[0m'         #bash - white colour code
 
 
-runScript() {
-    local scriptDir=$(dirname "$1")
-    local scriptName=$(basename "$1")
-    local returnValue=0
-    shift
+megaMenuList() 
+ {
+    local menuListFileDirectory=$(dirname "$1")
+    local menuListFileName=$(basename "$1")
+    local return_Val=0
+    shift 
 
-    local BACK=$(pwd)
+    local localHash=$(pwd)
 
-    if cd "$scriptDir"; then
-        "./$scriptName" "$@"
-        returnValue=$?
-        cd "$BACK"
-        return $returnValue
-    else
-        echo "Could not change directory to $scriptDir"
-        return 1
+    if cd "$menuListFileDirectory"; 
+        then
+            "./$menuListFileName" "$@"
+            return_Val=$?
+            cd "$localHash"
+            return $return_Val
+        else
+            echo "Could not change directory to $menuListFileDirectory"
+            return 1
     fi
 }
 
-# Authenticate the user
-runScript "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/scripts/portfolio/week2/PasswordCheck.sh"
+# Checking for the corect user,
+megaMenuList "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/PasswordCheck.sh"
 if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-# Print the menu
-echo -e "${purple}Select an option:"
 
-# Iterate through each script in the scriptList array. Use printf rather than echo for greater flexibility
-# and control over formatting.
-echo -en "$blue"
-for scriptIndex in "${!scriptList[@]}"; do
-    scriptPath=$(echo "${scriptList[$scriptIndex]}" | cut -f1 -d:)
-    scriptDescription=$(echo "${scriptList[$scriptIndex]}" | cut -f3 -d:)
+echo " "
+echo -e "${green} Select an option: " #Display the menu options
+
+
+echo " "
+
+# Display Menu in blue colour.
+echo -en "$blue" 
+for scriptIndex in "${!menuList[@]}"; do
+    scriptPath=$(echo "${menuList[$scriptIndex]}" | cut -f1 -d:)
+ #   scriptDescription= echo "${menuList[$scriptIndex]}" | cut -f3 -d: #FIX ME?? 
+    scriptDescription=$(echo "${menuList[$scriptIndex]}" | cut -f3 -d:)
     printf "%2d. %s\n" "$(( $scriptIndex + 1 ))" "$scriptDescription"
 done
-echo -en "$resetColour"
-printf "%2d. %s\n" "$(( ${#scriptList[@]} + 1 ))" "Exit"
 
-# Keep looping until we get a valid choice from the user. Check for both a valid integer
-# and for an integer in the required range.
+# exit Menu option in white/No colour
+echo -en "$white"
+printf "%2d. %s\n" "$(( ${#menuList[@]} + 1 ))" "Exit"    
+echo " "
+
+# starting of the loop for Menu list options
 while :; do
-    read -p "Enter your choice: " choice
 
-    if [[ "$choice" =~ ^[0-9]+$ ]]; then
-        # choice is an integer. Checking if it's in range
-        if (( choice >= 1 )) && (( choice <= ${#scriptList[@]} )); then
-            break
-        elif (( choice == ${#scriptList[@]} + 1 )); then
-            echo "Finished."
-            exit 0
-        else
-            echo "Your choice was out of range."
-        fi
-    else
-        echo "Please enter a number for your choice"
-    fi
+#read -p "${green}Enter your option:${white} " option
+#FIX ME?? 26.08.21
+
+    read -p "Please enter your option: " option
+      if [[ "$option" =~ ^[0-9]+$ ]]; then
+            # option is an integer. Checking if it's in range
+            if (( option >= 1 )) && (( option <= ${#menuList[@]} )); then
+               break
+           elif (( option == ${#menuList[@]} + 1 )); then
+              echo "You have succsesfully exited the Mega Menu."
+              exit 0   #Exit polite option - 0 : NO Errors
+          else
+               echo "Please enter an option withing 1 -8, if you press 8 you will be able to exit the Mega Menu."
+           fi
+      else
+         echo "Enter your option, please "
+      fi
 done
 
-# If we get to this part of the program, we have a valid choice. Due to the choices starting at 1, but arrays
-# starting at 0, we need to subtract one from the choice to derive the correct array index.
-indexToRun=$((choice - 1))
 
-# Run the script as given in the scriptList array. We need the first and second fields in the scriptList string, being
-# the full program path name and optional arguements.
-runScript "$(echo "${scriptList[$indexToRun]}" | cut -f1 -d:)" "$(echo "${scriptList[$indexToRun]}" | cut -f2 -d:)"
+runIndex=$((option - 1))
 
-# Capture the return code of the script for exiting the program.
-returnCode=$?
+#megaMenuList "$(echo "$menuList[$runIndex]}" | cut -f1 -d:)" "$(echo "${menuList[$runIndex]" | cut -f2 -d:)" #FIX ME??
+#megaMenuList "$(echo "${menuList[$runIndex}" | cut -f1 -d: $(echo "${menuList[$runIndex]} | cut -f2 -d:)"  #FIX ME?? - 
+megaMenuList "$(echo "${menuList[$runIndex]}" | cut -f1 -d:)" "$(echo "${menuList[$runIndex]}" | cut -f2 -d:)"
 
-# Reset colours before exiting
-echo -en "$resetColour"
+exitCode=$?
 
-# Use the return code captured earlier to exit the program with.
-exit $returnCode
+echo -en "$white" #Menu finishes with nutral colour
+
+exit $exitCode  #exit the program with the same rturn code.
