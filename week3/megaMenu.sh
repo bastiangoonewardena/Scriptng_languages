@@ -76,7 +76,7 @@ while :; do
 
     read -p "Please enter your option: " option
       if [[ "$option" =~ ^[0-9]+$ ]]; then
-            # option is an integer. Checking if it's in range
+            # Checking if option (int) in that range FIX ME??
             if (( option >= 1 )) && (( option <= ${#menuList[@]} )); then
                break
            elif (( option == ${#menuList[@]} + 1 )); then
