@@ -95,4 +95,4 @@ runIndex=$((option - 1))
 megaMenuList "$(echo "${menuList[$runIndex]}" | cut -f1 -d:)" "$(echo "${menuList[$runIndex]}" | cut -f2 -d:)"
 
 echo -en "$white" #Menu finishes with nutral colour
-exit 0 
+exit 0
