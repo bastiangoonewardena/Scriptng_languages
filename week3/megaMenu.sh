@@ -13,7 +13,6 @@ menuList=(
     "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/internetDownloader.sh::Download a File" \
 )
 
-
 red='\033[31m'          #bash - red colour code
 green='\033[32m'        #bash - green colour code
 blue='\033[34m'         #bash - blue colour code
@@ -47,10 +46,8 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-
 echo " "
 echo -e "${green} Select an option: " #Display the menu options
-
 
 echo " "
 
@@ -97,6 +94,5 @@ runIndex=$((option - 1))
 #megaMenuList "$(echo "${menuList[$runIndex}" | cut -f1 -d: $(echo "${menuList[$runIndex]} | cut -f2 -d:)"  #FIX ME?? - 
 megaMenuList "$(echo "${menuList[$runIndex]}" | cut -f1 -d:)" "$(echo "${menuList[$runIndex]}" | cut -f2 -d:)"
 
-exitCode=$?
 echo -en "$white" #Menu finishes with nutral colour
-exit $exitCode  #exit the program with the same rturn code.
+exit 0 

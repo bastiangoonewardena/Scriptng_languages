@@ -1,30 +1,20 @@
 #! /bin/bash
 
-program=$(basename $0)
-Usage="Usage: $program [dir]
-
-
-If dir is not specified, then the current directory is assumed."
-#if [ -n "$1" ]; then
-#    [ ! -d "$1" ] && echo "$program: \"$1\" is not a directory" >&2 && exit 1
-#    startDir="$1"
-#else
-#    startDir="."
-#fi
-
-
+#Not sure how I am suporse to run it on this directory, 
+#The only way I can do this would be rinning the commands as finctions and then excuting them. 
+#FIX ME?? 
 
 echo "1. All sed statements"
-grep -r "sed" "$startDir"
+grep -r "sed" ./"
 
 echo "2. All lines that start with the letter 'm' "
-grep -r "^m" "$startDir"
+grep -r "^m" "./"
 
 echo "3. All lines that contain three digit numbers"
-grep -r "\d\d\d" "$startDir"
+grep -r "\d\d\d" "./"
 
 echo "4. All echo statements with at least three words"
-grep -r "echo[[:space:]]*[[:alpha:]]*[[:space:]]*[[:alpha:]]*[[:space:]]*[[:alpha:]]*" "$startDir"
+grep -r "echo[[:space:]]*[[:alpha:]]*[[:space:]]*[[:alpha:]]*[[:space:]]*[[:alpha:]]*" "./"
 
 echo "5. All lines that would make a good password (use your knowledge of cybersecurity to decide what makes a good password)."
-grep -Eor "[^[:space:]]{10,}" "$startDir" | grep "[[:lower:]]" | grep "[[:upper:]]" | grep "[[:punct:]]" | grep "[0-9]"
+grep -Eor "[^[:space:]]{10,}" "./" | grep "[[:lower:]]" | grep "[[:upper:]]" | grep "[[:punct:]]" | grep "[0-9]"
