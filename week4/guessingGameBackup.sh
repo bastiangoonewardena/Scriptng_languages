@@ -32,4 +32,4 @@ while :; do
     fi
 done
 
-echo "Right!"
+echo "Correct!"
