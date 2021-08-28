@@ -132,17 +132,17 @@
 			],
 					"description": "Adds code for colours in bash"
 			},
-				"Test for a valid IP address": {
-					"scope":"sh",
-					"prefix": "ip",
-					"body":[
-						"if [[ \"$ip\" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then",
-						":",
-						"else",
-						":",
-						"fi"
-					],
-					"description": "Uses regex for testing valid ip addresses"
+			//	"Test for a valid IP address": {
+			//		"scope":"sh",
+			//		"prefix": "ip",
+			//		"body":[
+			//			"if [[ \"$ip\" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then",
+			//			":",
+			//			"else",
+			//			":",
+			//			"fi"
+			//		],
+			//		"description": "Uses regex for testing valid ip addresses"
 			}
 
 
