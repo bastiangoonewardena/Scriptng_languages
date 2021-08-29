@@ -35,5 +35,4 @@ items.each { | item | puts(item) }   #This is a good way to do things, since it'
 #Forth way of wrting the for loop. 
 puts (" ")
 puts ("Fourth way of outputting the arrey contents")
-puts(items)  #puts has an lamda function that it can be written this way. 
-
+puts(items)  #puts has an lamda function that it can be written this way.

@@ -9,11 +9,10 @@
 # https://stackoverflow.com/questions/11367553/brute-force-script-in-python-3-2 - Which libries to import, and where they are. 
 # Ethical Hacking using Python | Password Cracker Using Python | Edureka - Youtube - https://www.youtube.com/watch?v=CV_mMAYzTxw&ab_channel=edureka%21
 
-
 #Libriries Imported: 
 import hashlib                    
 #from itertools import product    #FIX ME ?? (Not sure why this is not working)
-import itertools               
+import itertools              
 
 # User's Password hash - The password that is matched.
 # User password is "d55" - selected this since it is small and less combniations before it can get to the haspassword 

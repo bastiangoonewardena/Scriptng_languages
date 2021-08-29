@@ -14,3 +14,5 @@ with open("wordlist.txt", "r") as wordlist:
         if(wordlistHash == passwordHash):
             print(f"Password has been cracked! It was {word}")
             break
+
+        

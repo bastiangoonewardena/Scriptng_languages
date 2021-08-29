@@ -4,7 +4,6 @@
 #User-Jeff ROZENKIEWICZ
 #The page he found it - https://www.tuxarena.com/2014/10/collection-of-useful-bash-functions-and-aliases/
 #
-
 myinfo() 
 {
   printf "CPU: "

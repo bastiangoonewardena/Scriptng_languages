@@ -17,3 +17,4 @@ while(<WORDLIST>) {
         exit;
     }
 }
+
