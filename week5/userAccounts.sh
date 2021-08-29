@@ -1,6 +1,7 @@
 #! /bin/bash
 
 #awk satment, 
+#In this -F: means that the separator is : (colon)
 awk -F: 'BEGIN {
     printf("|%8s%-11s%s|%6s%-10s%s|%6s%-10s%s|%13s%-13s%s|%8s%-8s%s|\n",
         "\033[35m", "Username", "\033[0m",
@@ -9,8 +10,7 @@ awk -F: 'BEGIN {
         "\033[35m", "Home", "\033[0m",
         "\033[35m", "Shell", "\033[0m")
 
-    #padded to the left, that is indicated by -
-    #%-13s - meaning: Srting with mninmum of 13 charactors padded to the left. 
+    #padded to the left, that is indicated by - %-13s - meaning: Srting with mninmum of 13 charactors padded to the left. 
     printf("| %-13s| %-9s| %-9s| %-20s| %-10s|\n",
         "_____________",
         "__________",
@@ -22,6 +22,7 @@ awk -F: 'BEGIN {
 # Filter the data to only show users who have “/bin/bash
 /\/bin\/bash$/ {
     printf("| %s%-13s%s| %s%-10s%s| %s%-10s%s| %s%-20s%s| %s%-10s%s|\n",
+        #$1 - Program will read the value 1, $3 - value 3 and so on. 
         "\033[36m", $1, "\033[0m",
         "\033[33m", $3, "\033[0m",
         "\033[33m", $4, "\033[0m",
