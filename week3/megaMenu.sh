@@ -3,22 +3,42 @@
 #Location of the file needs to be changed according to the location you will save the file to. 
 #Curent location of my fie is ~/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/Week2 and week3 folders. 
 
+#Start of the menu, The options of the menu, 
+#If you want to run this then you have to change these to your running directory. 
+#How to do this: 
+#
+#My working directory is ../week2 and ../week3
+#
+#
+
 menuList=(
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderMaker.sh::Create a folder" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderCopier.sh::Copy a folder" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/setPassword.sh::Set a password" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/calculator.sh::Calculator" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/megaFolderMaker.sh::Create Week Folders" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/filenames.sh:filenames.txt:Check Filenames" \
-    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/internetDownloader.sh::Download a File" \
+    "../week2/folderMaker.sh::Create a folder" \
+    "../week2/folderCopier.sh::Copy a folder" \
+    "../week2/setPassword.sh::Set a password" \
+    "../week3/calculator.sh::Calculator" \
+    "../week3/megaFolderMaker.sh::Create Week Folders" \
+    "../week3/filenames.sh:filenames.txt:Check Filenames" \
+    "../week3/internetDownloader.sh::Download a File" \
 )
 
+#FIX me I have changed the working directories, as I have gained knowladge I realise that I don't need to enter the full path, However decided to leave the comments to you can see my progress. 
+#menuList=(
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderMaker.sh::Create a folder" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/folderCopier.sh::Copy a folder" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/setPassword.sh::Set a password" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/calculator.sh::Calculator" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/megaFolderMaker.sh::Create Week Folders" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/filenames.sh:filenames.txt:Check Filenames" \
+#    "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week3/internetDownloader.sh::Download a File" \
+#)
+
+#Colour scheam for the script
 red='\033[31m'          #bash - red colour code
 green='\033[32m'        #bash - green colour code
 blue='\033[34m'         #bash - blue colour code
 white='\033[0m'         #bash - white colour code
 
-
+#Creating the megaMenu function
 megaMenuList() 
  {
     local menuListFileDirectory=$(dirname "$1")
@@ -41,7 +61,9 @@ megaMenuList()
 }
 
 # Checking for the corect user,
-megaMenuList "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/PasswordCheck.sh"
+#megaMenuList "$HOME/Documents/Masters - ECU/CYB6004_ScriptingLanguages/Assignment3_Portfolio/Scripts/portfolio/week2/PasswordCheck.sh"
+#Check if the passwords are matchig, this is the script that is in week2. 
+megaMenuList "../week2/PasswordCheck.sh"
 if [[ $? -ne 0 ]]; then
     exit 1
 fi
@@ -51,6 +73,7 @@ echo -e "${green} Select an option: " #Display the menu options
 
 echo " "
 
+#Once the user is authenticated with the secret.txt file hash vale, user given access to the mega menu. 
 # Display Menu in blue colour.
 echo -en "$blue" 
 for scriptIndex in "${!menuList[@]}"; do
