@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Threatpost</title>
+	<atom:link href="https://threatpost.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://threatpost.com</link>
+	<description>The First Stop For Security News</description>
+	<lastBuildDate>Mon, 30 Aug 2021 15:14:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+<atom:link rel="hub" href="https://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com"/>	<item>
+		<title>LockBit Gang to Publish 103GB of Bangkok Air Customer Data</title>
+		<link>https://threatpost.com/lockbit-bangkok-airways-breach/169019/</link>
+					<comments>https://threatpost.com/lockbit-bangkok-airways-breach/169019/#respond</comments>
+		
+		<dc:creator><![CDATA[Lisa Vaas]]></dc:creator>
+		<pubDate>Mon, 30 Aug 2021 15:14:21 +0000</pubDate>
+				<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=169019</guid>
+
+					<description><![CDATA[The airline announced the breach on Thursday, and the ransomware gang started a countdown clock the next day. ]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/lockbit-bangkok-airways-breach/169019/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/30105649/plane-crash-e1630335421107.jpeg" width="800" height="447"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/30105649/plane-crash-e1630335421107.jpeg" width="800" height="447"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/30105649/plane-crash-300x168.jpeg" width="300" height="168"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/30105649/plane-crash-150x150.jpeg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>T-Mobile&#8217;s Security Is &#8216;Awful,&#8217; Says Purported Thief</title>
+		<link>https://threatpost.com/t-mobile-security-awful-thief/169011/</link>
+					<comments>https://threatpost.com/t-mobile-security-awful-thief/169011/#comments</comments>
+		
+		<dc:creator><![CDATA[Lisa Vaas]]></dc:creator>
+		<pubDate>Sat, 28 Aug 2021 16:58:45 +0000</pubDate>
+				<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Hacks]]></category>
+		<category><![CDATA[Mobile Security]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=169011</guid>
+
+					<description><![CDATA[John Binns, claiming to be behind the massive T-Mobile theft of &#62;50m customer records, dissed the security measures of the US's No. 2 wireless biggest carrier. T-Mobile is "humbled," it said, announcing new partnerships with security heavyweights on Friday.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/t-mobile-security-awful-thief/169011/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand.jpeg" width="615" height="470"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand.jpeg" width="615" height="470"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand-300x229.jpeg" width="300" height="229"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand-150x150.jpeg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Parallels Offers &#8216;Inconvenient&#8217; Fix for High-Severity Bug</title>
+		<link>https://threatpost.com/parallels-inconvenient-fix/168997/</link>
+					<comments>https://threatpost.com/parallels-inconvenient-fix/168997/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom Spring]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 20:54:13 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168997</guid>
+
+					<description><![CDATA[Firm offers guidance on how to mitigate a five-months-old privilege escalation bug impacting Parallels Desktop 16 for Mac and all previous versions.  ]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/parallels-inconvenient-fix/168997/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27162938/parallels-desktop.jpg" width="700" height="466"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27162938/parallels-desktop.jpg" width="700" height="466"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27162938/parallels-desktop-300x200.jpg" width="300" height="200"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27162938/parallels-desktop-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Experts: WH Cybersecurity Summit Should Be Followed by Regulation, Enforcement</title>
+		<link>https://threatpost.com/wh-cybersecurity-summit-regulation-enforcement/169002/</link>
+					<comments>https://threatpost.com/wh-cybersecurity-summit-regulation-enforcement/169002/#respond</comments>
+		
+		<dc:creator><![CDATA[Becky Bracken]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 20:35:05 +0000</pubDate>
+				<category><![CDATA[Critical Infrastructure]]></category>
+		<category><![CDATA[Government]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=169002</guid>
+
+					<description><![CDATA[Amazon, Google, Microsoft etc. making major commitments to shore up nation’s cyber-defenses just won't be enough, researchers say.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/wh-cybersecurity-summit-regulation-enforcement/169002/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-e1630096330575.jpg" width="800" height="400"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-1024x512.jpg" width="1024" height="512"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-300x150.jpg" width="300" height="150"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Winning the Cyber-Defense Race: Understand the Finish Line</title>
+		<link>https://threatpost.com/winning-cyber-defense-race/168996/</link>
+					<comments>https://threatpost.com/winning-cyber-defense-race/168996/#respond</comments>
+		
+		<dc:creator><![CDATA[Kerry Matre]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 20:16:34 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[InfoSec Insider]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168996</guid>
+
+					<description><![CDATA[Kerry Matre, Mandiant senior director, clears up misconceptions about the value to business for enterprise cyber-defense. Hint: It's not achieving visibility.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/winning-cyber-defense-race/168996/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners.jpg" width="754" height="411"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners.jpg" width="754" height="411"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners-300x164.jpg" width="300" height="164"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>FIN8 Targets US Bank With New &#8216;Sardonic&#8217; Backdoor</title>
+		<link>https://threatpost.com/fin8-bank-sardonic-backdoor/168982/</link>
+					<comments>https://threatpost.com/fin8-bank-sardonic-backdoor/168982/#respond</comments>
+		
+		<dc:creator><![CDATA[Lisa Vaas]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 17:32:56 +0000</pubDate>
+				<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168982</guid>
+
+					<description><![CDATA[The latest refinement of the APT's BadHatch backdoor can leverage new malware on the fly without redeployment, making it potent and nimble. 
+]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/fin8-bank-sardonic-backdoor/168982/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/02114512/bank-e1625240724563.jpg" width="800" height="480"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/02114512/bank-1024x614.jpg" width="1024" height="614"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/02114512/bank-300x180.jpg" width="300" height="180"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/02114512/bank-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Critical Azure Cosmos DB Bug Allows Full Cloud Account Takeover</title>
+		<link>https://threatpost.com/azure-cosmos-db-bug-cloud/168986/</link>
+					<comments>https://threatpost.com/azure-cosmos-db-bug-cloud/168986/#respond</comments>
+		
+		<dc:creator><![CDATA[Tara Seals]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 16:49:23 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168986</guid>
+
+					<description><![CDATA[It's unclear if Microsoft customers were breached during the months-long period where the #ChaosDB bug in Jupyter Notebooks was exploitable.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/azure-cosmos-db-bug-cloud/168986/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27123642/Jupiter-e1630082270279.jpg" width="800" height="500"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27123642/Jupiter-1024x640.jpg" width="1024" height="640"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27123642/Jupiter-300x188.jpg" width="300" height="188"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27123642/Jupiter-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Ragnarok Ransomware Gang Bites the Dust, Releases Decryptor</title>
+		<link>https://threatpost.com/ragnarok-releases-decryptor/168976/</link>
+					<comments>https://threatpost.com/ragnarok-releases-decryptor/168976/#respond</comments>
+		
+		<dc:creator><![CDATA[Elizabeth Montalbano]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 13:50:44 +0000</pubDate>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168976</guid>
+
+					<description><![CDATA[The cybercriminal group, active since late 2019, has closed its doors and released the key to unlocking victims’ files on its dark web portal.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/ragnarok-releases-decryptor/168976/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27094723/encryption-key.jpg" width="800" height="533"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27094723/encryption-key.jpg" width="800" height="533"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27094723/encryption-key-300x200.jpg" width="300" height="200"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27094723/encryption-key-150x150.jpg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>Top Strategies That Define the Success of a Modern Vulnerability Management Program</title>
+		<link>https://threatpost.com/top-strategies-that-define-the-success-of-a-modern-vulnerability-management-program/168604/</link>
+					<comments>https://threatpost.com/top-strategies-that-define-the-success-of-a-modern-vulnerability-management-program/168604/#respond</comments>
+		
+		<dc:creator><![CDATA[Pat Cooper]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 13:00:36 +0000</pubDate>
+				<category><![CDATA[Sponsored]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168604</guid>
+
+					<description><![CDATA[Modern vulnerability management programs require a strategy that defines what success means for your organization’s cybersecurity goals. By incorporating a few simple cyber hygiene routines to your daily security routine, you’ll set up your IT teams to be better equipped to steer off cyberattacks.]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/top-strategies-that-define-the-success-of-a-modern-vulnerability-management-program/168604/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/24130931/SecPod-Featured-Image.png" width="1200" height="630"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/24130931/SecPod-Featured-Image-1024x538.png" width="1024" height="538"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/24130931/SecPod-Featured-Image-300x158.png" width="300" height="158"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/24130931/SecPod-Featured-Image-150x150.png" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+		<item>
+		<title>&#8216;Pay Ransom&#8217; Screen? Too Late, Humpty Dumpty – Podcast</title>
+		<link>https://threatpost.com/ransom-humpty-dumpty-podcast/168962/</link>
+					<comments>https://threatpost.com/ransom-humpty-dumpty-podcast/168962/#respond</comments>
+		
+		<dc:creator><![CDATA[Lisa Vaas]]></dc:creator>
+		<pubDate>Fri, 27 Aug 2021 12:00:38 +0000</pubDate>
+				<category><![CDATA[Hacks]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Podcasts]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<guid isPermaLink="false">https://kasperskycontenthub.com/threatpost-global/?p=168962</guid>
+
+					<description><![CDATA[Splunk’s Ryan Kovar discusses the rise in supply-chain attacks a la Kaseya &#38; how to get ahead of encryption leaving your business a pile of broken shells. ]]></description>
+		
+					<wfw:commentRss>https://threatpost.com/ransom-humpty-dumpty-podcast/168962/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="http://traffic.libsyn.com/digitalunderground/081921__Ryan_Kovar_Splunk_mixdown.mp3" length="0" type="audio/mpeg" />
+
+		<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/05152927/eggs-chickens-e1617650984482.jpeg" width="800" height="533"><media:keywords>full</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/05152927/eggs-chickens-e1617650984482.jpeg" width="800" height="533"><media:keywords>large</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/05152927/eggs-chickens-300x200.jpeg" width="300" height="200"><media:keywords>medium</media:keywords></media:content>
+<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/05152927/eggs-chickens-150x150.jpeg" width="150" height="150"><media:keywords>thumbnail</media:keywords></media:content>
+	</item>
+	</channel>
+</rss>

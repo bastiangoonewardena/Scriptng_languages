@@ -1,0 +1,14 @@
+___________________________________________________________________________________________________________________
+|Article Code  |Description                                                                                         |
+___________________________________________________________________________________________________________________
+|[32m2             [0m|[0;34mLockBit Gang to Publish 103GB of Bangkok Air Customer Data                                          [0m|
+|[32m3             [0m|[0;34mT-Mobiles Security Is Awful, Says Purported Thief                                                   [0m|
+|[32m4             [0m|[0;34mParallels Offers Inconvenient Fix for High-Severity Bug                                             [0m|
+|[32m5             [0m|[0;34mExperts: WH Cybersecurity Summit Should Be Followed by Regulation, Enforcement                      [0m|
+|[32m6             [0m|[0;34mWinning the Cyber-Defense Race: Understand the Finish Line                                          [0m|
+|[32m7             [0m|[0;34mFIN8 Targets US Bank With New Sardonic Backdoor                                                     [0m|
+|[32m8             [0m|[0;34mCritical Azure Cosmos DB Bug Allows Full Cloud Account Takeover                                     [0m|
+|[32m9             [0m|[0;34mRagnarok Ransomware Gang Bites the Dust, Releases Decryptor                                         [0m|
+|[32m10            [0m|[0;34mTop Strategies That Define the Success of a Modern Vulnerability Management Program                 [0m|
+|[32m11            [0m|[0;34mPay Ransom Screen? Too Late, Humpty Dumpty – Podcast                                              [0m|
+___________________________________________________________________________________________________________________
